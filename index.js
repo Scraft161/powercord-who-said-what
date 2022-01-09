@@ -81,10 +81,10 @@ module.exports = class PCWhoSaidWhat extends Plugin {
 
 		setup();
 
-		this.injectStyles("./styles.css");
+		this.style.backgroundColor = '#f047471a'
 	}
 
-	stop() {
+	pluginWillUnload() {
 		clearInterval(interval);
 
 		for (let e of document.getElementsByClassName("pc-deleted-message")) {
