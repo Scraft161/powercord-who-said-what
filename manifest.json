@@ -1,0 +1,8 @@
+{
+	"name": "Powercord who-said-what",
+	"version": "0.0.1",
+	"description": "Prevents Discord from removing deleted messages for moments when you say \"Who said what?\"",
+	"author": "Scraft161, Vbriese",
+	"license": "MIT",
+	"nsfw": false
+}
